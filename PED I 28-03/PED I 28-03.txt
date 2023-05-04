@@ -1,0 +1,71 @@
+4. Faça um algoritmo que leia 2 números e escreva a soma dos mesmos
+var n1, n2, soma
+INICIO
+ESCREVA "Digite um numero"
+LEIA n1
+ESCREVA "Digite outro numero"
+LEIA n2
+soma = n1 + n2
+ESCREVA "A soma é: " soma
+FIM
+
+5. Faça um algoritmo que leia 3 números e escreva a soma dos mesmos
+var n1, n2, n3, soma
+INICIO
+ESCREVA "Digite o primeiro numero"
+LEIA n1
+ESCREVA "Digite o segundo numero"
+LEIA n2
+ESCREVA "Digite o terceiro numero"
+LEIA n3
+soma = n1 + n2 + n3
+ESCREVA "A soma é: " soma
+FIM
+
+6. Faça um algoritmo que leia 2 números e escreva a diferença do maior pelo menor
+var n1, n2
+INICIO
+ESCREVA "Digite o primeiro numero"
+LEIA n1
+ESCREVA "Digite o segundo numero"
+LEIA n2
+SE n1 > n2 ENTAO ESCREVA n1 - n2
+SENAO ESCREVA n2 - n1
+FIM
+
+7. Faça um algoritmo que leia 3 números e escreva qual é o maior e qual é o menor deles
+var n1, n2, n3
+INICIO
+ESCREVA "Digite o primeiro numero"
+LEIA n1
+ESCREVA "Digite o segundo numero"
+LEIA n2
+ESCREVA "Digite o terceiro numero"
+LEIA n3
+SE n1 > n2 E n1 > n3 
+ENTAO ESCREVA n1
+SE n2 > n1 E n2 > n3
+ENTAO ESCREVA n2
+SE n3 > n1 E n3 > n2
+ENTAO ESCREVA n3
+FIM
+
+8. Faça um algoritmo que leia o lado de um quadrado e calcule escreva a área do mesmo.
+var lado, area 
+INICIO
+ESCREVA "Digite o lado do quadrado"
+LEIA lado
+area = lado * lado
+ESCREVA area
+FIM
+
+9. Faça um algoritmo que leia o diâmetro de um círculo e calcule e escreva a área do mesmo
+var d, a, r
+INICIO
+ESCREVA "Digite o diametro do circulo"
+LEIA d
+r = d/2
+a = 3.14 * r * r
+ESCREVA "A area é " a
+FIM
+

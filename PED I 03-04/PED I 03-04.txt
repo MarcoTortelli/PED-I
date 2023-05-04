@@ -1,0 +1,57 @@
+1. Faça um algoritmo que leia 3 valores e escreva a média dos mesmos.
+var n1, n2, n3, media
+INICIO
+ESCREVA "Digite o primeiro numero"
+LEIA n1
+ESCREVA "Digite o segundo numero"
+LEIA n2
+ESCREVA "Digite o terceiro numero"
+LEIA n3
+media = (n1 + n2 + n3)/3
+ESCREVA "A media é " media
+FIM
+
+2. Faça um algoritmo que leia 3 valores e escreva qual é o maior deles.
+var n1, n2, n3
+INICIO
+ESCREVA "Digite o primeiro numero"
+LEIA n1
+ESCREVA "Digite o segundo numero"
+LEIA n2
+ESCREVA "Digite o terceiro numero"
+LEIA n3
+SE n1 > n2 E n1 > n3 
+ENTAO ESCREVA n1
+SE n2 > n1 E n2 > n3
+ENTAO ESCREVA n2
+SE n3 > n1 E n3 > n2
+ENTAO ESCREVA n3
+FIM
+
+
+3. A Flávia Jando em sua última viajem trouxe um termômetro dos EUA, mas esqueceu que lá a temperatura é expressa em graus Fahrenheit. 
+Faça um algoritmo que leia a temperatura em graus Fahrenheit e calcule e escreva a temperatura em graus Celsius, de acordo com a fórmula:
+GrausCelsius = (GrausFahrenheit - 32) / 1.8
+var f, c
+INICIO
+ESCREVA "Digite a temperatura em Fahrenheit"
+LEIA c
+c = (f - 32) / 1.8
+ESCREVA "A temperatura em graus Celsius é " c
+FIM
+
+4. Osmar Vado vende bugigangas para os turistas. Ele aceita pagamento em Real, Euro e em Dólar e para facilitar a cobrança ele usa os seguintes valores de cotação: 
+1 Euro = 6 Reais; 1 Dólar = 5 Reais. Faça um algoritmo que leia o valor da venda e escreva os valores correspondentes em Euro e em Dólar.
+var real, dolar, euro
+INICIO
+ESCREVA "Digite o valor em reais"
+LEIA real
+dolar = real * 5
+euro = real * 6
+LEIA real
+ESCREVA "O valor em euro é " euro
+ESCREVA "O valr em dolar é " dolar
+FIM
+
+
+
