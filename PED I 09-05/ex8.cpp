@@ -13,6 +13,7 @@ main()
     int s = 0, n, q = 0;
     while (s < 500)
     {
+        cout << "Digite um numero: ";
         cin >> n;
         s += n;
         cout << "Soma: " << s << endl;
@@ -20,6 +21,4 @@ main()
         cout << q << "x" << endl;
     }
 
-    // cout << s;
-    // cout << q;
 }
