@@ -63,7 +63,8 @@ main()
                 cout << "Codigo invalido\n";
             }
         }
-        cout << endl << "Total a pagar: R$ " << t << endl;
+        cout << endl
+             << "Total a pagar: R$ " << t << endl;
         t = 0.0;
     }
 }
