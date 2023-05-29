@@ -16,11 +16,11 @@ main()
 {
 
     int n[20], i, x;
-    for (i = 0; i < 20; i++)
+    for (i = 1; i <= 20; i++)
     {
-        // cout << "Digite o " << i << "o numero: ";
-        // cin >> n[i];
-        n[i] = i;
+         cout << "Digite o " << i << "o numero: ";
+         cin >> n[i];
+        //n[i] = i;
     }
     cout << "1 - Mostrar todos: escreva todos os numeros" << endl
          << "2 - Mostrar os pares: escreva todos os numeros pares" << endl
@@ -32,13 +32,13 @@ main()
         switch (x)
         {
         case 1:
-            for (i = 0; i < 20; i++)
+            for (i = 1; i <= 20; i++)
             {
                 cout << n[i] << " ";
             }
             break;
         case 2:
-            for (i = 0; i < 20; i++)
+            for (i = 1; i <= 20; i++)
             {
                 if (n[i] % 2 == 0)
                 {
@@ -47,7 +47,7 @@ main()
             }
             break;
         case 3:
-            for (i = 0; i < 20; i++)
+            for (i = 1; i <= 20; i++)
             {
                 if (n[i] % 2 != 0)
                 {

@@ -16,12 +16,12 @@ main()
     for (i = 0; i < 10; i++)
     {
         cout << "Digite o nome do funcionario: ";
-        cin.ignore();
         getline(cin, n[i]);
         cout << "Digite o salario do funcionario: ";
         cin >> s[i];
+        cin.ignore();
     }
-    cout << "Funcionarios que ganham mais de 1500: ";
+    cout << "Funcionarios que ganham mais de 1500: " << endl;
     for (i = 0; i < 10; i++)
     {
         if (s[i] > 1500)
