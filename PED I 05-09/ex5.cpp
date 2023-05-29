@@ -42,7 +42,7 @@ main()
             switch (x)
             {
             case 1:
-                t += 10.00 * q;
+                t = t + 10.00 * q;
                 break;
             case 2:
                 t += 20.00 * q;
@@ -63,8 +63,7 @@ main()
                 cout << "Codigo invalido\n";
             }
         }
-        cout << endl
-             << "Total a pagar: R$ " << t << endl;
+        cout << "Total a pagar: R$ " << t << endl;
         t = 0.0;
     }
 }
