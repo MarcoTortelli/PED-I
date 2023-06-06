@@ -15,9 +15,8 @@ main() {
     getline(cin, frase);
     string frasefinal;
     for (int i = 0; i < frase.length(); i++) {
-        char letra = frase[i];
-        if (letra != ' ') {
-            frasefinal += letra;
+        if (frase[i] != ' ') {
+            frasefinal += frase[i];
         }
     }
     cout << "Frase sem espacos: " << frasefinal << endl;

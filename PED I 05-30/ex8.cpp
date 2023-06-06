@@ -30,9 +30,8 @@ main() {
 
     for (int i = 0; i < frase.length(); i++) {
         frase[i] = tolower(frase[i]);
-        char letra = frase[i];
-        if (letra != ' ') {
-            fraseclean += letra;
+        if (frase[i] != ' ') {
+            fraseclean += frase[i];
         }
     }
 
